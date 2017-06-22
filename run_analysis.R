@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>coursera-getting-and-cleaning-data-project/README.md at master · bgentry/coursera-getting-and-cleaning-data-project · GitHub</title>
+  <title>coursera-getting-and-cleaning-data-project/run_analysis.R at master · bgentry/coursera-getting-and-cleaning-data-project · GitHub</title>
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
@@ -39,7 +39,7 @@
   
   <meta name="pjax-timeout" content="1000">
   
-  <meta name="request-id" content="4980:05AA:26D2E60:38029FB:594B891C" data-pjax-transient>
+  <meta name="request-id" content="E654:07FA:1BAEDC0:28F0F53:594B87B7" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -48,7 +48,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="4980:05AA:26D2E60:38029FB:594B891C" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="E654:07FA:1BAEDC0:28F0F53:594B87B7" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -64,7 +64,7 @@
   <meta name="user-login" content="">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="MmY4M2IzOGUzNDk0YmNlMjRhNzgzZWUyN2VlMWMzMWFkZTM4MGNhZDE3NWFhYjM3YmEzMmZmZWIwZjIxYzI2Znx7InJlbW90ZV9hZGRyZXNzIjoiMjIzLjE5MS42My45MCIsInJlcXVlc3RfaWQiOiI0OTgwOjA1QUE6MjZEMkU2MDozODAyOUZCOjU5NEI4OTFDIiwidGltZXN0YW1wIjoxNDk4MTIyNTMxLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="NGQ3NjExZTE3OGIyZWZjMjczZGZmYWU4MWE3ZWNhNDlkNjc3ZTlmYWY3ZTQyNzE4MWQ2YzNhNmI0NGJmMTcyY3x7InJlbW90ZV9hZGRyZXNzIjoiMjcuNjMuMTgxLjEzOCIsInJlcXVlc3RfaWQiOiJFNjU0OjA3RkE6MUJBRURDMDoyOEYwRjUzOjU5NEI4N0I3IiwidGltZXN0YW1wIjoxNDk4MTIyMTY3LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
 
   <meta name="html-safe-nonce" content="8ef103f8971dba3b74f52ab95b1b3f991413391a">
@@ -80,7 +80,7 @@
   <meta content="114033" name="octolytics-dimension-user_id" /><meta content="bgentry" name="octolytics-dimension-user_login" /><meta content="32694259" name="octolytics-dimension-repository_id" /><meta content="bgentry/coursera-getting-and-cleaning-data-project" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="32694259" name="octolytics-dimension-repository_network_root_id" /><meta content="bgentry/coursera-getting-and-cleaning-data-project" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
 
 
-    <link rel="canonical" href="https://github.com/bgentry/coursera-getting-and-cleaning-data-project/blob/master/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/bgentry/coursera-getting-and-cleaning-data-project/blob/master/run_analysis.R" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -111,7 +111,7 @@
     
 
       <div class="mobile-banner">
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/site/mobile_preference" class="js-mobile-preference-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="eMi1uEGXFGE8CQIVRUIAfrg47onPDBaVIXFT1N3Zck95mCMXnL7AVj5SV88UB2KT6hqwDbUbkOgRvQxnZ8J6mA==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/site/mobile_preference" class="js-mobile-preference-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="jjDp4ZezIKJt5liOonSwx4qA+vlwVZg6Ix8fM/oqRcePYH9OSpr0lW+9DVTzMdIq2KKkfQpCHkcT00CAQDFNEA==" /></div>
           <input type="hidden" name="mobile" value="true">
           <input type="hidden" name="anchor" class="js-mobile-preference-anchor-field">
 
@@ -150,7 +150,7 @@
           <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
   <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/bgentry/coursera-getting-and-cleaning-data-project/search" class="js-site-search-form" data-scoped-search-url="/bgentry/coursera-getting-and-cleaning-data-project/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
     <label class="form-control header-search-wrapper js-chromeless-input-container">
-        <a href="/bgentry/coursera-getting-and-cleaning-data-project/blob/master/README.md" class="header-search-scope no-underline">This repository</a>
+        <a href="/bgentry/coursera-getting-and-cleaning-data-project/blob/master/run_analysis.R" class="header-search-scope no-underline">This repository</a>
       <input type="text"
         class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
         data-hotkey="s"
@@ -166,7 +166,7 @@
 </form></div>
 
 
-          <a class="text-bold site-header-link" href="/login?return_to=%2Fbgentry%2Fcoursera-getting-and-cleaning-data-project%2Fblob%2Fmaster%2FREADME.md" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+          <a class="text-bold site-header-link" href="/login?return_to=%2Fbgentry%2Fcoursera-getting-and-cleaning-data-project%2Fblob%2Fmaster%2Frun_analysis.R" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
             <span class="text-gray">or</span>
             <a class="text-bold site-header-link" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
       </div>
@@ -314,9 +314,9 @@
   <div class="repository-content">
 
     
-  <a href="/bgentry/coursera-getting-and-cleaning-data-project/blob/f970ecbd764eaec92c220d8b28c55b44941fa2a6/README.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/bgentry/coursera-getting-and-cleaning-data-project/blob/f970ecbd764eaec92c220d8b28c55b44941fa2a6/run_analysis.R" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:0a1a74d3448235079891c90b8be2220c -->
+  <!-- blob contrib key: blob_contributors:v21:79573fea46ff8f05346cc4cc1f392436 -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -358,7 +358,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/bgentry/coursera-getting-and-cleaning-data-project/blob/master/README.md"
+               href="/bgentry/coursera-getting-and-cleaning-data-project/blob/master/run_analysis.R"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -395,7 +395,7 @@
       <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
     </div>
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/bgentry/coursera-getting-and-cleaning-data-project"><span>coursera-getting-and-cleaning-data-project</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/bgentry/coursera-getting-and-cleaning-data-project"><span>coursera-getting-and-cleaning-data-project</span></a></span></span><span class="separator">/</span><strong class="final-path">run_analysis.R</strong>
     </div>
   </div>
 
@@ -403,15 +403,15 @@
   
   <div class="commit-tease">
       <span class="float-right">
-        <a class="commit-tease-sha" href="/bgentry/coursera-getting-and-cleaning-data-project/commit/66448ffae6f9ab9dbb1c7cf6ae333c00011429a0" data-pjax>
-          66448ff
+        <a class="commit-tease-sha" href="/bgentry/coursera-getting-and-cleaning-data-project/commit/12fc6cf71c9628ab9bcd38f608be6741ea845d3b" data-pjax>
+          12fc6cf
         </a>
-        <relative-time datetime="2015-03-22T20:36:36Z">Mar 22, 2015</relative-time>
+        <relative-time datetime="2015-03-22T20:18:23Z">Mar 22, 2015</relative-time>
       </span>
       <div>
         <img alt="@bgentry" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/114033?v=3&amp;s=40" width="20" />
         <a href="/bgentry" class="user-mention" rel="author">bgentry</a>
-          <a href="/bgentry/coursera-getting-and-cleaning-data-project/commit/66448ffae6f9ab9dbb1c7cf6ae333c00011429a0" class="message" data-pjax="true" title="add readme">add readme</a>
+          <a href="/bgentry/coursera-getting-and-cleaning-data-project/commit/12fc6cf71c9628ab9bcd38f608be6741ea845d3b" class="message" data-pjax="true" title="add course project analysis script">add course project analysis script</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -438,9 +438,9 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/bgentry/coursera-getting-and-cleaning-data-project/raw/master/README.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/bgentry/coursera-getting-and-cleaning-data-project/blame/master/README.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/bgentry/coursera-getting-and-cleaning-data-project/commits/master/README.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/bgentry/coursera-getting-and-cleaning-data-project/raw/master/run_analysis.R" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/bgentry/coursera-getting-and-cleaning-data-project/blame/master/run_analysis.R" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/bgentry/coursera-getting-and-cleaning-data-project/commits/master/run_analysis.R" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
 
@@ -455,31 +455,229 @@
   </div>
 
   <div class="file-info">
-      18 lines (14 sloc)
+      50 lines (39 sloc)
       <span class="file-info-divider"></span>
-    776 Bytes
+    1.98 KB
   </div>
 </div>
 
     
-  <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-getting-and-cleaning-data---course-project" class="anchor" href="#getting-and-cleaning-data---course-project" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting and Cleaning Data - Course Project</h1>
-<p>This is the course project for the Getting and Cleaning Data Coursera course.
-The R script, <code>run_analysis.R</code>, does the following:</p>
-<ol>
-<li>Download the dataset if it does not already exist in the working directory</li>
-<li>Load the activity and feature info</li>
-<li>Loads both the training and test datasets, keeping only those columns which
-reflect a mean or standard deviation</li>
-<li>Loads the activity and subject data for each dataset, and merges those
-columns with the dataset</li>
-<li>Merges the two datasets</li>
-<li>Converts the <code>activity</code> and <code>subject</code> columns into factors</li>
-<li>Creates a tidy dataset that consists of the average (mean) value of each
-variable for each subject and activity pair.</li>
-</ol>
-<p>The end result is shown in the file <code>tidy.txt</code>.</p>
-</article>
+
+  <div itemprop="text" class="blob-wrapper data type-r">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">library(<span class="pl-smi">reshape2</span>)</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">filename</span> <span class="pl-k">&lt;-</span> <span class="pl-s"><span class="pl-pds">&quot;</span>getdata_dataset.zip<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span># Download and unzip the dataset:</span></td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> (<span class="pl-k">!</span>file.exists(<span class="pl-smi">filename</span>)){</td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">  <span class="pl-smi">fileURL</span> <span class="pl-k">&lt;-</span> <span class="pl-s"><span class="pl-pds">&quot;</span>https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip <span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">  download.file(<span class="pl-smi">fileURL</span>, <span class="pl-smi">filename</span>, <span class="pl-v">method</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>curl<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">}  </td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> (<span class="pl-k">!</span>file.exists(<span class="pl-s"><span class="pl-pds">&quot;</span>UCI HAR Dataset<span class="pl-pds">&quot;</span></span>)) { </td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">  unzip(<span class="pl-smi">filename</span>) </td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Load activity labels + features</span></td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">activityLabels</span> <span class="pl-k">&lt;-</span> read.table(<span class="pl-s"><span class="pl-pds">&quot;</span>UCI HAR Dataset/activity_labels.txt<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">activityLabels</span>[,<span class="pl-c1">2</span>] <span class="pl-k">&lt;-</span> as.character(<span class="pl-smi">activityLabels</span>[,<span class="pl-c1">2</span>])</td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">features</span> <span class="pl-k">&lt;-</span> read.table(<span class="pl-s"><span class="pl-pds">&quot;</span>UCI HAR Dataset/features.txt<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">features</span>[,<span class="pl-c1">2</span>] <span class="pl-k">&lt;-</span> as.character(<span class="pl-smi">features</span>[,<span class="pl-c1">2</span>])</td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Extract only the data on mean and standard deviation</span></td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">featuresWanted</span> <span class="pl-k">&lt;-</span> grep(<span class="pl-s"><span class="pl-pds">&quot;</span>.*mean.*|.*std.*<span class="pl-pds">&quot;</span></span>, <span class="pl-smi">features</span>[,<span class="pl-c1">2</span>])</td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">featuresWanted.names</span> <span class="pl-k">&lt;-</span> <span class="pl-smi">features</span>[<span class="pl-smi">featuresWanted</span>,<span class="pl-c1">2</span>]</td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-v">featuresWanted.names</span> <span class="pl-k">=</span> gsub(<span class="pl-s"><span class="pl-pds">&#39;</span>-mean<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>Mean<span class="pl-pds">&#39;</span></span>, <span class="pl-smi">featuresWanted.names</span>)</td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class="pl-v">featuresWanted.names</span> <span class="pl-k">=</span> gsub(<span class="pl-s"><span class="pl-pds">&#39;</span>-std<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>Std<span class="pl-pds">&#39;</span></span>, <span class="pl-smi">featuresWanted.names</span>)</td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">featuresWanted.names</span> <span class="pl-k">&lt;-</span> gsub(<span class="pl-s"><span class="pl-pds">&#39;</span>[-()]<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span>, <span class="pl-smi">featuresWanted.names</span>)</td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> Load the datasets</span></td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">train</span> <span class="pl-k">&lt;-</span> read.table(<span class="pl-s"><span class="pl-pds">&quot;</span>UCI HAR Dataset/train/X_train.txt<span class="pl-pds">&quot;</span></span>)[<span class="pl-smi">featuresWanted</span>]</td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">trainActivities</span> <span class="pl-k">&lt;-</span> read.table(<span class="pl-s"><span class="pl-pds">&quot;</span>UCI HAR Dataset/train/Y_train.txt<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">trainSubjects</span> <span class="pl-k">&lt;-</span> read.table(<span class="pl-s"><span class="pl-pds">&quot;</span>UCI HAR Dataset/train/subject_train.txt<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">train</span> <span class="pl-k">&lt;-</span> cbind(<span class="pl-smi">trainSubjects</span>, <span class="pl-smi">trainActivities</span>, <span class="pl-smi">train</span>)</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">test</span> <span class="pl-k">&lt;-</span> read.table(<span class="pl-s"><span class="pl-pds">&quot;</span>UCI HAR Dataset/test/X_test.txt<span class="pl-pds">&quot;</span></span>)[<span class="pl-smi">featuresWanted</span>]</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">testActivities</span> <span class="pl-k">&lt;-</span> read.table(<span class="pl-s"><span class="pl-pds">&quot;</span>UCI HAR Dataset/test/Y_test.txt<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">testSubjects</span> <span class="pl-k">&lt;-</span> read.table(<span class="pl-s"><span class="pl-pds">&quot;</span>UCI HAR Dataset/test/subject_test.txt<span class="pl-pds">&quot;</span></span>)</td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">test</span> <span class="pl-k">&lt;-</span> cbind(<span class="pl-smi">testSubjects</span>, <span class="pl-smi">testActivities</span>, <span class="pl-smi">test</span>)</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> merge datasets and add labels</span></td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">allData</span> <span class="pl-k">&lt;-</span> rbind(<span class="pl-smi">train</span>, <span class="pl-smi">test</span>)</td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">colnames(<span class="pl-smi">allData</span>) <span class="pl-k">&lt;-</span> c(<span class="pl-s"><span class="pl-pds">&quot;</span>subject<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>activity<span class="pl-pds">&quot;</span></span>, <span class="pl-smi">featuresWanted.names</span>)</td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span> turn activities &amp; subjects into factors</span></td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">allData</span><span class="pl-k">$</span><span class="pl-smi">activity</span> <span class="pl-k">&lt;-</span> <span class="pl-k">factor</span>(<span class="pl-smi">allData</span><span class="pl-k">$</span><span class="pl-smi">activity</span>, <span class="pl-v">levels</span> <span class="pl-k">=</span> <span class="pl-smi">activityLabels</span>[,<span class="pl-c1">1</span>], <span class="pl-v">labels</span> <span class="pl-k">=</span> <span class="pl-smi">activityLabels</span>[,<span class="pl-c1">2</span>])</td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">allData</span><span class="pl-k">$</span><span class="pl-smi">subject</span> <span class="pl-k">&lt;-</span> as.factor(<span class="pl-smi">allData</span><span class="pl-k">$</span><span class="pl-smi">subject</span>)</td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">allData.melted</span> <span class="pl-k">&lt;-</span> melt(<span class="pl-smi">allData</span>, <span class="pl-v">id</span> <span class="pl-k">=</span> c(<span class="pl-s"><span class="pl-pds">&quot;</span>subject<span class="pl-pds">&quot;</span></span>, <span class="pl-s"><span class="pl-pds">&quot;</span>activity<span class="pl-pds">&quot;</span></span>))</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">allData.mean</span> <span class="pl-k">&lt;-</span> dcast(<span class="pl-smi">allData.melted</span>, <span class="pl-smi">subject</span> <span class="pl-k">+</span> <span class="pl-smi">activity</span> <span class="pl-k">~</span> <span class="pl-smi">variable</span>, <span class="pl-smi">mean</span>)</td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">write.table(<span class="pl-smi">allData.mean</span>, <span class="pl-s"><span class="pl-pds">&quot;</span>tidy.txt<span class="pl-pds">&quot;</span></span>, <span class="pl-v">row.names</span> <span class="pl-k">=</span> <span class="pl-c1">FALSE</span>, <span class="pl-v">quote</span> <span class="pl-k">=</span> <span class="pl-c1">FALSE</span>)</td>
+      </tr>
+</table>
+
   </div>
 
   </div>
@@ -517,7 +715,7 @@ variable for each subject and activity pair.</li>
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2017 <span title="0.12315s from unicorn-4274053815-dv7r8">GitHub</span>, Inc.</li>
+      <li>&copy; 2017 <span title="0.14418s from unicorn-4274053815-mrv7z">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>

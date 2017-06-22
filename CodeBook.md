@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>coursera-getting-and-cleaning-data-project/README.md at master · bgentry/coursera-getting-and-cleaning-data-project · GitHub</title>
+  <title>coursera-getting-and-cleaning-data-project/CodeBook.md at master · bgentry/coursera-getting-and-cleaning-data-project · GitHub</title>
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
@@ -39,7 +39,7 @@
   
   <meta name="pjax-timeout" content="1000">
   
-  <meta name="request-id" content="4980:05AA:26D2E60:38029FB:594B891C" data-pjax-transient>
+  <meta name="request-id" content="4980:05AA:26D27E4:380299F:594B891B" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -48,7 +48,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="4980:05AA:26D2E60:38029FB:594B891C" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="4980:05AA:26D27E4:380299F:594B891B" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -64,7 +64,7 @@
   <meta name="user-login" content="">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="MmY4M2IzOGUzNDk0YmNlMjRhNzgzZWUyN2VlMWMzMWFkZTM4MGNhZDE3NWFhYjM3YmEzMmZmZWIwZjIxYzI2Znx7InJlbW90ZV9hZGRyZXNzIjoiMjIzLjE5MS42My45MCIsInJlcXVlc3RfaWQiOiI0OTgwOjA1QUE6MjZEMkU2MDozODAyOUZCOjU5NEI4OTFDIiwidGltZXN0YW1wIjoxNDk4MTIyNTMxLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="MzM4NDI3MjcyODczMzZkOTRiZjAxM2I4NmUzNDcwY2Y1OGI4M2U3YTk5YjNlNjAwNGYxY2FjMGQ0YmM2YWE3Ynx7InJlbW90ZV9hZGRyZXNzIjoiMjIzLjE5MS42My45MCIsInJlcXVlc3RfaWQiOiI0OTgwOjA1QUE6MjZEMjdFNDozODAyOTlGOjU5NEI4OTFCIiwidGltZXN0YW1wIjoxNDk4MTIyNTI0LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
 
   <meta name="html-safe-nonce" content="8ef103f8971dba3b74f52ab95b1b3f991413391a">
@@ -80,7 +80,7 @@
   <meta content="114033" name="octolytics-dimension-user_id" /><meta content="bgentry" name="octolytics-dimension-user_login" /><meta content="32694259" name="octolytics-dimension-repository_id" /><meta content="bgentry/coursera-getting-and-cleaning-data-project" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="32694259" name="octolytics-dimension-repository_network_root_id" /><meta content="bgentry/coursera-getting-and-cleaning-data-project" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
 
 
-    <link rel="canonical" href="https://github.com/bgentry/coursera-getting-and-cleaning-data-project/blob/master/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/bgentry/coursera-getting-and-cleaning-data-project/blob/master/CodeBook.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -111,7 +111,7 @@
     
 
       <div class="mobile-banner">
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/site/mobile_preference" class="js-mobile-preference-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="eMi1uEGXFGE8CQIVRUIAfrg47onPDBaVIXFT1N3Zck95mCMXnL7AVj5SV88UB2KT6hqwDbUbkOgRvQxnZ8J6mA==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/site/mobile_preference" class="js-mobile-preference-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="qGZoQx18XyRnYtpQdg4v41KVkk1q4zcrzBy0qai+R2upNv7swFWLE2U5j4onS00OALfMyRD0sVb80OsaEqVPvA==" /></div>
           <input type="hidden" name="mobile" value="true">
           <input type="hidden" name="anchor" class="js-mobile-preference-anchor-field">
 
@@ -150,7 +150,7 @@
           <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
   <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/bgentry/coursera-getting-and-cleaning-data-project/search" class="js-site-search-form" data-scoped-search-url="/bgentry/coursera-getting-and-cleaning-data-project/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
     <label class="form-control header-search-wrapper js-chromeless-input-container">
-        <a href="/bgentry/coursera-getting-and-cleaning-data-project/blob/master/README.md" class="header-search-scope no-underline">This repository</a>
+        <a href="/bgentry/coursera-getting-and-cleaning-data-project/blob/master/CodeBook.md" class="header-search-scope no-underline">This repository</a>
       <input type="text"
         class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
         data-hotkey="s"
@@ -166,7 +166,7 @@
 </form></div>
 
 
-          <a class="text-bold site-header-link" href="/login?return_to=%2Fbgentry%2Fcoursera-getting-and-cleaning-data-project%2Fblob%2Fmaster%2FREADME.md" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+          <a class="text-bold site-header-link" href="/login?return_to=%2Fbgentry%2Fcoursera-getting-and-cleaning-data-project%2Fblob%2Fmaster%2FCodeBook.md" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
             <span class="text-gray">or</span>
             <a class="text-bold site-header-link" href="/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
       </div>
@@ -314,9 +314,9 @@
   <div class="repository-content">
 
     
-  <a href="/bgentry/coursera-getting-and-cleaning-data-project/blob/f970ecbd764eaec92c220d8b28c55b44941fa2a6/README.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/bgentry/coursera-getting-and-cleaning-data-project/blob/f970ecbd764eaec92c220d8b28c55b44941fa2a6/CodeBook.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:0a1a74d3448235079891c90b8be2220c -->
+  <!-- blob contrib key: blob_contributors:v21:ebebae109d4d6d6402dbebab1c1f7a41 -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -358,7 +358,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/bgentry/coursera-getting-and-cleaning-data-project/blob/master/README.md"
+               href="/bgentry/coursera-getting-and-cleaning-data-project/blob/master/CodeBook.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -395,7 +395,7 @@
       <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
     </div>
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/bgentry/coursera-getting-and-cleaning-data-project"><span>coursera-getting-and-cleaning-data-project</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/bgentry/coursera-getting-and-cleaning-data-project"><span>coursera-getting-and-cleaning-data-project</span></a></span></span><span class="separator">/</span><strong class="final-path">CodeBook.md</strong>
     </div>
   </div>
 
@@ -403,15 +403,15 @@
   
   <div class="commit-tease">
       <span class="float-right">
-        <a class="commit-tease-sha" href="/bgentry/coursera-getting-and-cleaning-data-project/commit/66448ffae6f9ab9dbb1c7cf6ae333c00011429a0" data-pjax>
-          66448ff
+        <a class="commit-tease-sha" href="/bgentry/coursera-getting-and-cleaning-data-project/commit/f970ecbd764eaec92c220d8b28c55b44941fa2a6" data-pjax>
+          f970ecb
         </a>
-        <relative-time datetime="2015-03-22T20:36:36Z">Mar 22, 2015</relative-time>
+        <relative-time datetime="2015-03-22T20:36:43Z">Mar 22, 2015</relative-time>
       </span>
       <div>
         <img alt="@bgentry" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/114033?v=3&amp;s=40" width="20" />
         <a href="/bgentry" class="user-mention" rel="author">bgentry</a>
-          <a href="/bgentry/coursera-getting-and-cleaning-data-project/commit/66448ffae6f9ab9dbb1c7cf6ae333c00011429a0" class="message" data-pjax="true" title="add readme">add readme</a>
+          <a href="/bgentry/coursera-getting-and-cleaning-data-project/commit/f970ecbd764eaec92c220d8b28c55b44941fa2a6" class="message" data-pjax="true" title="add code book">add code book</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -438,9 +438,9 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/bgentry/coursera-getting-and-cleaning-data-project/raw/master/README.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/bgentry/coursera-getting-and-cleaning-data-project/blame/master/README.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/bgentry/coursera-getting-and-cleaning-data-project/commits/master/README.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/bgentry/coursera-getting-and-cleaning-data-project/raw/master/CodeBook.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/bgentry/coursera-getting-and-cleaning-data-project/blame/master/CodeBook.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/bgentry/coursera-getting-and-cleaning-data-project/commits/master/CodeBook.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
 
@@ -455,30 +455,112 @@
   </div>
 
   <div class="file-info">
-      18 lines (14 sloc)
+      100 lines (92 sloc)
       <span class="file-info-divider"></span>
-    776 Bytes
+    2.34 KB
   </div>
 </div>
 
     
   <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-getting-and-cleaning-data---course-project" class="anchor" href="#getting-and-cleaning-data---course-project" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting and Cleaning Data - Course Project</h1>
-<p>This is the course project for the Getting and Cleaning Data Coursera course.
-The R script, <code>run_analysis.R</code>, does the following:</p>
-<ol>
-<li>Download the dataset if it does not already exist in the working directory</li>
-<li>Load the activity and feature info</li>
-<li>Loads both the training and test datasets, keeping only those columns which
-reflect a mean or standard deviation</li>
-<li>Loads the activity and subject data for each dataset, and merges those
-columns with the dataset</li>
-<li>Merges the two datasets</li>
-<li>Converts the <code>activity</code> and <code>subject</code> columns into factors</li>
-<li>Creates a tidy dataset that consists of the average (mean) value of each
-variable for each subject and activity pair.</li>
-</ol>
-<p>The end result is shown in the file <code>tidy.txt</code>.</p>
+    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-code-book" class="anchor" href="#code-book" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Code Book</h1>
+<p>This code book summarizes the resulting data fields in <code>tidy.txt</code>.</p>
+<h2><a id="user-content-identifiers" class="anchor" href="#identifiers" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Identifiers</h2>
+<ul>
+<li><code>subject</code> - The ID of the test subject</li>
+<li><code>activity</code> - The type of activity performed when the corresponding measurements were taken</li>
+</ul>
+<h2><a id="user-content-measurements" class="anchor" href="#measurements" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Measurements</h2>
+<ul>
+<li><code>tBodyAccMeanX</code></li>
+<li><code>tBodyAccMeanY</code></li>
+<li><code>tBodyAccMeanZ</code></li>
+<li><code>tBodyAccStdX</code></li>
+<li><code>tBodyAccStdY</code></li>
+<li><code>tBodyAccStdZ</code></li>
+<li><code>tGravityAccMeanX</code></li>
+<li><code>tGravityAccMeanY</code></li>
+<li><code>tGravityAccMeanZ</code></li>
+<li><code>tGravityAccStdX</code></li>
+<li><code>tGravityAccStdY</code></li>
+<li><code>tGravityAccStdZ</code></li>
+<li><code>tBodyAccJerkMeanX</code></li>
+<li><code>tBodyAccJerkMeanY</code></li>
+<li><code>tBodyAccJerkMeanZ</code></li>
+<li><code>tBodyAccJerkStdX</code></li>
+<li><code>tBodyAccJerkStdY</code></li>
+<li><code>tBodyAccJerkStdZ</code></li>
+<li><code>tBodyGyroMeanX</code></li>
+<li><code>tBodyGyroMeanY</code></li>
+<li><code>tBodyGyroMeanZ</code></li>
+<li><code>tBodyGyroStdX</code></li>
+<li><code>tBodyGyroStdY</code></li>
+<li><code>tBodyGyroStdZ</code></li>
+<li><code>tBodyGyroJerkMeanX</code></li>
+<li><code>tBodyGyroJerkMeanY</code></li>
+<li><code>tBodyGyroJerkMeanZ</code></li>
+<li><code>tBodyGyroJerkStdX</code></li>
+<li><code>tBodyGyroJerkStdY</code></li>
+<li><code>tBodyGyroJerkStdZ</code></li>
+<li><code>tBodyAccMagMean</code></li>
+<li><code>tBodyAccMagStd</code></li>
+<li><code>tGravityAccMagMean</code></li>
+<li><code>tGravityAccMagStd</code></li>
+<li><code>tBodyAccJerkMagMean</code></li>
+<li><code>tBodyAccJerkMagStd</code></li>
+<li><code>tBodyGyroMagMean</code></li>
+<li><code>tBodyGyroMagStd</code></li>
+<li><code>tBodyGyroJerkMagMean</code></li>
+<li><code>tBodyGyroJerkMagStd</code></li>
+<li><code>fBodyAccMeanX</code></li>
+<li><code>fBodyAccMeanY</code></li>
+<li><code>fBodyAccMeanZ</code></li>
+<li><code>fBodyAccStdX</code></li>
+<li><code>fBodyAccStdY</code></li>
+<li><code>fBodyAccStdZ</code></li>
+<li><code>fBodyAccMeanFreqX</code></li>
+<li><code>fBodyAccMeanFreqY</code></li>
+<li><code>fBodyAccMeanFreqZ</code></li>
+<li><code>fBodyAccJerkMeanX</code></li>
+<li><code>fBodyAccJerkMeanY</code></li>
+<li><code>fBodyAccJerkMeanZ</code></li>
+<li><code>fBodyAccJerkStdX</code></li>
+<li><code>fBodyAccJerkStdY</code></li>
+<li><code>fBodyAccJerkStdZ</code></li>
+<li><code>fBodyAccJerkMeanFreqX</code></li>
+<li><code>fBodyAccJerkMeanFreqY</code></li>
+<li><code>fBodyAccJerkMeanFreqZ</code></li>
+<li><code>fBodyGyroMeanX</code></li>
+<li><code>fBodyGyroMeanY</code></li>
+<li><code>fBodyGyroMeanZ</code></li>
+<li><code>fBodyGyroStdX</code></li>
+<li><code>fBodyGyroStdY</code></li>
+<li><code>fBodyGyroStdZ</code></li>
+<li><code>fBodyGyroMeanFreqX</code></li>
+<li><code>fBodyGyroMeanFreqY</code></li>
+<li><code>fBodyGyroMeanFreqZ</code></li>
+<li><code>fBodyAccMagMean</code></li>
+<li><code>fBodyAccMagStd</code></li>
+<li><code>fBodyAccMagMeanFreq</code></li>
+<li><code>fBodyBodyAccJerkMagMean</code></li>
+<li><code>fBodyBodyAccJerkMagStd</code></li>
+<li><code>fBodyBodyAccJerkMagMeanFreq</code></li>
+<li><code>fBodyBodyGyroMagMean</code></li>
+<li><code>fBodyBodyGyroMagStd</code></li>
+<li><code>fBodyBodyGyroMagMeanFreq</code></li>
+<li><code>fBodyBodyGyroJerkMagMean</code></li>
+<li><code>fBodyBodyGyroJerkMagStd</code></li>
+<li><code>fBodyBodyGyroJerkMagMeanFreq</code></li>
+</ul>
+<h2><a id="user-content-activity-labels" class="anchor" href="#activity-labels" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Activity Labels</h2>
+<ul>
+<li><code>WALKING</code> (value <code>1</code>): subject was walking during the test</li>
+<li><code>WALKING_UPSTAIRS</code> (value <code>2</code>): subject was walking up a staircase during the test</li>
+<li><code>WALKING_DOWNSTAIRS</code> (value <code>3</code>): subject was walking down a staircase during the test</li>
+<li><code>SITTING</code> (value <code>4</code>): subject was sitting during the test</li>
+<li><code>STANDING</code> (value <code>5</code>): subject was standing during the test</li>
+<li><code>LAYING</code> (value <code>6</code>): subject was laying down during the test</li>
+</ul>
 </article>
   </div>
 
@@ -517,7 +599,7 @@ variable for each subject and activity pair.</li>
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2017 <span title="0.12315s from unicorn-4274053815-dv7r8">GitHub</span>, Inc.</li>
+      <li>&copy; 2017 <span title="0.15620s from github-fe-df0f95a.cp1-iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
